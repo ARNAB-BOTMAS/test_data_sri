@@ -11,7 +11,7 @@ def db_connect():
         print(e)
     return conn
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/users', methods=['GET', 'POST'])
 def handle_users():
     conn = db_connect()
     cursor = conn.cursor()
