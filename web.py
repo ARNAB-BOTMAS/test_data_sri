@@ -25,9 +25,9 @@ def handle_users():
             user = {
                 'id': row[0],
                 'name': row[1],
-                'email': row[2],
-                'gender': row[3],
-                'password': row[4]
+                'gender': row[2],
+                'password': row[3],
+                'email': row[4]
             }
             users.append(user)
 
